@@ -1,0 +1,16 @@
+body {
+    height: 1500px;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    max-height: 100px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: slategray;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
