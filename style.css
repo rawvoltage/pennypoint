@@ -1,5 +1,7 @@
 body {
     height: 1500px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -13,4 +15,30 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     background-color: #F5F5F5;
+}
+
+header {
+    border: 1px solid black;
+    width: 100%;
+/*    background-color: dodgerblue;*/
+}
+
+h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.intro {
+    text-align: center;
+}
+
+.column {
+    
+}
+
+.column img {
+    height: 45%;
+    width: 45%;
 }
